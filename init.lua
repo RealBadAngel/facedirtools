@@ -210,8 +210,8 @@ end
 
 minetest.register_node("facedirtools:testnode",{
 	description = "Test nodebox",
-	tiles = {"default_stone.png", "default_chest_top.png", "default_chest_side.png",
-		"default_chest_side.png", "default_chest_side.png", "default_chest_front.png"},
+	tiles = {"arrowgreen.png", "arrowdarkgreen.png", "arrowred.png",
+		"arrowdarkred.png", "arrowblue.png", "arrowdarkblue.png"},
 	groups = {snappy=2,choppy=2,oddly_breakable_by_hand=2},
 	paramtype2 = "facedir",
 	paramtype = "light",
