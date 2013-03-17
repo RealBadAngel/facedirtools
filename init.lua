@@ -224,3 +224,10 @@ minetest.register_node("facedirtools:testnode",{
 		},
 })
 
+minetest.register_node("facedirtools:testnode2",{
+	description = "Test node",
+	tiles = {"chestarrowgreen.png", "chestarrowdarkgreen.png", "chestarrowred.png",
+		"chestarrowdarkred.png", "chestarrowblue.png", "chestarrowdarkblue.png"},
+	groups = {snappy=2,choppy=2,oddly_breakable_by_hand=2},
+	paramtype2 = "facedir",
+})
